@@ -20,8 +20,8 @@ def recieve(roomName, host):
 			pkt = sniff(filter=filter_, count = 2)
 			message = pkt[0]
 			message = str(message)
-			indx = message.find(roomName[0])
-			msg = message[indx:]
+			index_ = message.find(roomName[0])
+			msg = message[index_:]
 			msg = msg[:-1]
 			print(msg)
 		except:
