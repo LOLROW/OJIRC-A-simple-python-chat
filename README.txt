@@ -10,3 +10,5 @@ Known bugs:
 
 Missing dependencies or problems with scapy do python3 install -r requirements.txt.
 Sometimes one or more clients have to doubletap enter to send a message (no fix yet).
+
+If chatting between different networks all clients must portforward ICMP port 1.
